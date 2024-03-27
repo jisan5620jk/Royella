@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const HeroSection = () => {
   return (
     // <div className="pt-[100px]">
@@ -22,9 +24,11 @@ const HeroSection = () => {
             Great Moments
           </h1>
         </div>
-        <button className="btn-secondary lg:h-[55px] before:top-[3.3rem] lg:before:top-[4rem]">
-          ROOMS & SUITES
-        </button>
+        <Link to={"/room"}>
+          <button className="btn-secondary lg:h-[55px] before:top-[3.3rem] lg:before:top-[4rem]">
+            ROOMS & SUITES
+          </button>
+        </Link>
       </div>
     </section>
     // </div>

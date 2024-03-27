@@ -1,4 +1,5 @@
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const Events = () => {
   return (
@@ -46,7 +47,7 @@ const Events = () => {
             presentations.
           </p>
 
-          <div className="flex items-center  justify-center">
+          <Link to={"/blog"} className="flex items-center  justify-center">
             <button
               to="#"
               className="flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-5 lg:leading-[38px] font-Lora font-medium border border-[#dddddd] dark:border-[#474747] px-7 xl:px-8 py-[6px] hover-animBg hover:text-white after:rounded-none "
@@ -54,7 +55,7 @@ const Events = () => {
               OUR EVENTS
               <HiOutlineArrowNarrowRight className="ml-2" />
             </button>
-          </div>
+          </Link>
         </div>
       </div>
       {/* event two */}
@@ -100,15 +101,15 @@ const Events = () => {
             presentations.
           </p>
 
-          <div className="flex items-center  justify-center">
+          <Link to={"/blog"} className="flex items-center  justify-center">
             <button
               to="#"
-              className="flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-5 lg:leading-[38px] font-Lora font-medium  border border-[#dddddd] dark:border-[#474747] px-7 xl:px-8 py-[6px] hover-animBg hover:text-white after:rounded-none "
+              className="flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-5 lg:leading-[38px] font-Lora font-medium border border-[#dddddd] dark:border-[#474747] px-7 xl:px-8 py-[6px] hover-animBg hover:text-white after:rounded-none "
             >
               OUR EVENTS
               <HiOutlineArrowNarrowRight className="ml-2" />
             </button>
-          </div>
+          </Link>
         </div>
       </div>
       {/* event three */}
@@ -154,15 +155,15 @@ const Events = () => {
             presentations.
           </p>
 
-          <div className="flex items-center  justify-center">
+          <Link to={"/blog"} className="flex items-center  justify-center">
             <button
               to="#"
-              className="flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-5 lg:leading-[38px] font-Lora font-medium  border border-[#dddddd] dark:border-[#474747] px-6 py-2 hover-animBg hover:text-white after:rounded-none "
+              className="flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-5 lg:leading-[38px] font-Lora font-medium border border-[#dddddd] dark:border-[#474747] px-7 xl:px-8 py-[6px] hover-animBg hover:text-white after:rounded-none "
             >
               OUR EVENTS
               <HiOutlineArrowNarrowRight className="ml-2" />
             </button>
-          </div>
+          </Link>
         </div>
       </div>
     </section>

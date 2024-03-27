@@ -1,5 +1,6 @@
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
+import { Link } from "react-router-dom";
 
 const Gallery = () => {
   const [sliderRef] = useKeenSlider({
@@ -36,12 +37,6 @@ const Gallery = () => {
           <p className="text-base leading-7 md:leading-10 lg:leading-[40px] 3xl:leading-[66px] text-khaki mb-1 md:mb-0 font-normal font-Lora">
             Photos Gallery
           </p>
-          <h3
-            className="text-lightBlack dark:text-white text-2xl sm:text-3xl md:text-4xl lg:text-[40px] 2xl:text-[45px] leading-5 md:leading-7 lg:leading-10  2xl:leading-[45px]
-           font-semibold font-Garamond"
-          >
-            Follow Us
-          </h3>
         </div>
 
         {/* Section content */}
@@ -62,9 +57,11 @@ const Gallery = () => {
                   <h3 className="text-2xl md:text-[26px]  leading-5 md:leading-[26px] xl:text-[25px] 2xl:text-3xl 3xl:text-4xl 2xl:leading-[42px] text-white  font-Garamond font-semibold ">
                     Bed Female Dorm
                   </h3>
-                  <p className="text-sm sm:text-base leading-[22px] lg:leading-[26px] xl:leading-[38px] font-Lora font-normal text-white mt-2 ">
-                    Check Details
-                  </p>
+                  <Link to="#">
+                    <p className="text-sm sm:text-base leading-[22px] lg:leading-[26px] xl:leading-[38px] font-Lora font-normal text-white mt-2 ">
+                      Check Details
+                    </p>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -83,9 +80,11 @@ const Gallery = () => {
                   <h3 className="text-2xl md:text-[26px]  leading-5 md:leading-[26px] xl:text-[25px] 2xl:text-3xl 3xl:text-4xl 2xl:leading-[42px] text-white  font-Garamond font-semibold ">
                     Bed Female Dorm
                   </h3>
-                  <p className="text-sm sm:text-base leading-[22px] lg:leading-[26px] xl:leading-[38px] font-Lora font-normal text-white mt-2 ">
-                    Check Details
-                  </p>
+                  <Link to="#">
+                    <p className="text-sm sm:text-base leading-[22px] lg:leading-[26px] xl:leading-[38px] font-Lora font-normal text-white mt-2 ">
+                      Check Details
+                    </p>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -104,9 +103,11 @@ const Gallery = () => {
                   <h3 className="text-2xl md:text-[26px]  leading-5 md:leading-[26px] xl:text-[25px] 2xl:text-3xl 3xl:text-4xl 2xl:leading-[42px] text-white  font-Garamond font-semibold ">
                     Bed Female Dorm
                   </h3>
-                  <p className="text-sm sm:text-base leading-[22px] lg:leading-[26px] xl:leading-[38px] font-Lora font-normal text-white mt-2 ">
-                    Check Details
-                  </p>
+                  <Link to="#">
+                    <p className="text-sm sm:text-base leading-[22px] lg:leading-[26px] xl:leading-[38px] font-Lora font-normal text-white mt-2 ">
+                      Check Details
+                    </p>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -125,9 +126,11 @@ const Gallery = () => {
                   <h3 className="text-2xl md:text-[26px]  leading-5 md:leading-[26px] xl:text-[25px] 2xl:text-3xl 3xl:text-4xl 2xl:leading-[42px] text-white  font-Garamond font-semibold ">
                     Bed Female Dorm
                   </h3>
-                  <p className="text-sm sm:text-base leading-[22px] lg:leading-[26px] xl:leading-[38px] font-Lora font-normal text-white mt-2 ">
-                    Check Details
-                  </p>
+                  <Link to="#">
+                    <p className="text-sm sm:text-base leading-[22px] lg:leading-[26px] xl:leading-[38px] font-Lora font-normal text-white mt-2 ">
+                      Check Details
+                    </p>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -146,9 +149,11 @@ const Gallery = () => {
                   <h3 className="text-2xl md:text-[26px]  leading-5 md:leading-[26px] xl:text-[25px] 2xl:text-3xl 3xl:text-4xl 2xl:leading-[42px] text-white  font-Garamond font-semibold ">
                     Bed Female Dorm
                   </h3>
-                  <p className="text-sm sm:text-base leading-[22px] lg:leading-[26px] xl:leading-[38px] font-Lora font-normal text-white mt-2 ">
-                    Check Details
-                  </p>
+                  <Link to="#">
+                    <p className="text-sm sm:text-base leading-[22px] lg:leading-[26px] xl:leading-[38px] font-Lora font-normal text-white mt-2 ">
+                      Check Details
+                    </p>
+                  </Link>
                 </div>
               </div>
             </div>

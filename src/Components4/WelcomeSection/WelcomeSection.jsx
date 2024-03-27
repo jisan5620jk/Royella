@@ -1,6 +1,7 @@
 import { useState } from "react";
 import FsLightbox from "fslightbox-react";
 import { TbPlayerPlayFilled } from "react-icons/tb";
+import { Link } from "react-router-dom";
 
 const WelcomeSection = () => {
   const [toggler, setToggler] = useState(false);
@@ -56,9 +57,11 @@ const WelcomeSection = () => {
             Aenean hendrerit maximus aliquet. Pellentesque interdum odio dui,
             vitae ele Aenean hendrerit maximus aliquet.
           </p>
-          <button className="btn-primary text-base leading-[38px] font-medium font-Garamond">
-            LEARN MORE
-          </button>
+          <Link to={"/about"}>
+            <button className="btn-primary text-base leading-[38px] font-medium font-Garamond">
+              LEARN MORE
+            </button>
+          </Link>
         </div>
       </div>
     </section>

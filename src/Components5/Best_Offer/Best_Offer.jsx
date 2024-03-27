@@ -1,4 +1,5 @@
 import { LiaDotCircleSolid } from "react-icons/lia";
+import { Link } from "react-router-dom";
 
 const Best_Offer = () => {
   return (
@@ -56,7 +57,11 @@ const Best_Offer = () => {
                 </li>
               </ul>
             </div>
-            <button className="btn-primary 3xl:w-[211px]">Discover More</button>
+            <Link to={"/service_details"}>
+              <button className="btn-primary 3xl:w-[211px]">
+                Discover More
+              </button>
+            </Link>
           </div>
           {/* best-offer image */}
           <div

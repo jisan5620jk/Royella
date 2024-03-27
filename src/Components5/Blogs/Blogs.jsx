@@ -73,7 +73,7 @@ const Blogs = () => {
                           </p>
                         </div>
                         <h3 className="text-lg  sm:text-[24px] pt-1 md:pt-[6px] lg:pt-0 lg:text-[20px] xl:text-[24px] 2xl:text-[28px] leading-7 pb-1 md:leading-8  text-[#012549] dark:text-whiteSmoke font-bold font-Garamond mb-[19px] hover:text-khaki dark:hover:text-khaki transition-all duration-300">
-                          <Link to="/home5/blog">
+                          <Link to="/blog_details">
                             {" "}
                             A Guide to Travel Insurance For The Elderly...
                           </Link>
@@ -91,7 +91,7 @@ const Blogs = () => {
                         </div>
                         <div className="text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] ">
                           <Link
-                            to="/home5/blog"
+                            to="/blog_details"
                             className="flex items-center hover:text-khaki"
                           >
                             Learn More{" "}
@@ -102,7 +102,7 @@ const Blogs = () => {
                           </Link>
                         </div>
                       </div>
-                    </div>
+                    </div>g
                   </div>
                   {/* Blog two */}
                   <div
@@ -133,7 +133,7 @@ const Blogs = () => {
                           </p>
                         </div>
                         <h3 className="text-lg  sm:text-[24px] pt-1 md:pt-[6px] lg:pt-0 lg:text-[20px] xl:text-[24px] 2xl:text-[28px] leading-7 pb-1 md:leading-8 text-[#012549] dark:text-whiteSmoke font-bold font-Garamond mb-[19px] hover:text-khaki dark:hover:text-khaki transition-all duration-300">
-                          <Link to="/home5/blog">
+                          <Link to="/blog_details">
                             We Ensure Delivery of The Project Within...
                           </Link>
                         </h3>
@@ -150,7 +150,7 @@ const Blogs = () => {
                         </div>
                         <div className="text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] ">
                           <Link
-                            to="/home5/blog"
+                            to="/blog_details"
                             className="flex items-center hover:text-khaki"
                           >
                             Learn More{" "}
@@ -192,7 +192,7 @@ const Blogs = () => {
                           </p>
                         </div>
                         <h3 className="text-lg  sm:text-[24px] pt-1 md:pt-[6px] lg:pt-0 lg:text-[20px] xl:text-[24px] 2xl:text-[28px] leading-7 pb-1 md:leading-8  text-[#012549] dark:text-whiteSmoke font-bold font-Garamond mb-[19px] hover:text-khaki dark:hover:text-khaki transition-all duration-300">
-                          <Link to="home5/blog">
+                          <Link to="blog_details">
                             We Source The Best Materials From Reputable...
                           </Link>
                         </h3>
@@ -209,7 +209,7 @@ const Blogs = () => {
                         </div>
                         <div className="text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] ">
                           <Link
-                            to="/home5/blog"
+                            to="/blog_details"
                             className="flex items-center hover:text-khaki"
                           >
                             Learn More{" "}
@@ -251,7 +251,7 @@ const Blogs = () => {
                           </p>
                         </div>
                         <h3 className="text-lg  sm:text-[24px] pt-1 md:pt-[6px] lg:pt-0 lg:text-[20px] xl:text-[24px] 2xl:text-[28px] leading-7 pb-1 md:leading-8  text-[#012549] dark:text-whiteSmoke font-bold font-Garamond mb-[19px] hover:text-khaki dark:hover:text-khaki transition-all duration-300">
-                          <Link to="/home5/blog">
+                          <Link to="/blog_details">
                             {" "}
                             A Guide to Travel Insurance For The Elderly...
                           </Link>
@@ -269,7 +269,7 @@ const Blogs = () => {
                         </div>
                         <div className="text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] ">
                           <Link
-                            to="/home5/blog"
+                            to="/blog_details"
                             className="flex items-center hover:text-khaki"
                           >
                             Learn More{" "}
@@ -328,7 +328,7 @@ const Blogs = () => {
                         </div>
                         <div className="text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] ">
                           <Link
-                            to="/home5/blog"
+                            to="/blog_details"
                             className="flex items-center hover:text-khaki"
                           >
                             Learn More{" "}
@@ -370,7 +370,7 @@ const Blogs = () => {
                           </p>
                         </div>
                         <h3 className="text-lg  sm:text-[24px] pt-1 md:pt-[6px] lg:pt-0 lg:text-[20px] xl:text-[24px] 2xl:text-[28px] leading-7 pb-1 md:leading-8  text-[#012549] dark:text-whiteSmoke font-bold font-Garamond mb-[19px] hover:text-khaki dark:hover:text-khaki transition-all duration-300">
-                          <Link to="home5/blog">
+                          <Link to="blog_details">
                             We Source The Best Materials From Reputable...
                           </Link>
                         </h3>
@@ -387,7 +387,7 @@ const Blogs = () => {
                         </div>
                         <div className="text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] ">
                           <Link
-                            to="/home5/blog"
+                            to="/blog_details"
                             className="flex items-center hover:text-khaki"
                           >
                             Learn More{" "}
@@ -432,7 +432,7 @@ const Blogs = () => {
                           </p>
                         </div>
                         <h3 className="text-lg  sm:text-[24px] pt-1 md:pt-[6px] lg:pt-0 lg:text-[20px] xl:text-[24px] 2xl:text-[28px] leading-7 pb-1 md:leading-8  text-[#012549] dark:text-whiteSmoke font-bold font-Garamond mb-[19px] hover:text-khaki dark:hover:text-khaki transition-all duration-300">
-                          <Link to="/home5/blog">
+                          <Link to="/blog_details">
                             {" "}
                             A Guide to Travel Insurance For The Elderly...
                           </Link>
@@ -450,7 +450,7 @@ const Blogs = () => {
                         </div>
                         <div className="text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] ">
                           <Link
-                            to="/home5/blog"
+                            to="/blog_details"
                             className="flex items-center hover:text-khaki"
                           >
                             Learn More{" "}
@@ -509,7 +509,7 @@ const Blogs = () => {
                         </div>
                         <div className="text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] ">
                           <Link
-                            to="/home5/blog"
+                            to="/blog_details"
                             className="flex items-center hover:text-khaki"
                           >
                             Learn More{" "}
@@ -551,7 +551,7 @@ const Blogs = () => {
                           </p>
                         </div>
                         <h3 className="text-lg  sm:text-[24px] pt-1 md:pt-[6px] lg:pt-0 lg:text-[20px] xl:text-[24px] 2xl:text-[28px] leading-7 pb-1 md:leading-8  text-[#012549] dark:text-whiteSmoke font-bold font-Garamond mb-[19px] hover:text-khaki dark:hover:text-khaki transition-all duration-300">
-                          <Link to="home5/blog">
+                          <Link to="blog_details">
                             We Source The Best Materials From Reputable...
                           </Link>
                         </h3>
@@ -568,7 +568,7 @@ const Blogs = () => {
                         </div>
                         <div className="text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] ">
                           <Link
-                            to="/home5/blog"
+                            to="/blog_details"
                             className="flex items-center hover:text-khaki"
                           >
                             Learn More{" "}

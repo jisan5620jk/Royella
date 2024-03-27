@@ -1,4 +1,5 @@
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const Offers = () => {
   return (
@@ -48,13 +49,15 @@ const Offers = () => {
                 dolor, dapibus eget, elementum vel, cursus eleifend, elit.
                 Aenean auctor wisi et urna...
               </p>
-              <button
-                to="#"
-                className="flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-5 lg:leading-[38px] font-Lora font-medium  border px-6 h-[41px] hover:bg-khaki hover:text-white"
-              >
-                VIEW OFFER
-                <HiOutlineArrowNarrowRight className="ml-2" />
-              </button>
+              <Link to={"/pricing"}>
+                <button
+                  to="#"
+                  className="flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-5 lg:leading-[38px] font-Lora font-medium  border px-6 h-[41px] hover:bg-khaki hover:text-white"
+                >
+                  VIEW OFFER
+                  <HiOutlineArrowNarrowRight className="ml-2" />
+                </button>
+              </Link>
             </div>
           </div>
           <div
@@ -84,13 +87,15 @@ const Offers = () => {
                 dolor, dapibus eget, elementum vel, cursus eleifend, elit.
                 Aenean auctor wisi et urna...
               </p>
-              <button
-                to="#"
-                className="flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-5 lg:leading-[38px] font-Lora font-medium  border px-6 h-[41px] hover:bg-khaki hover:text-white"
-              >
-                VIEW OFFER
-                <HiOutlineArrowNarrowRight className="ml-2" />
-              </button>
+              <Link to={"/pricing"}>
+                <button
+                  to="#"
+                  className="flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-5 lg:leading-[38px] font-Lora font-medium  border px-6 h-[41px] hover:bg-khaki hover:text-white"
+                >
+                  VIEW OFFER
+                  <HiOutlineArrowNarrowRight className="ml-2" />
+                </button>
+              </Link>
             </div>
           </div>
           <div
@@ -120,13 +125,15 @@ const Offers = () => {
                 dolor, dapibus eget, elementum vel, cursus eleifend, elit.
                 Aenean auctor wisi et urna...
               </p>
-              <button
-                to="#"
-                className="flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-5 lg:leading-[38px] font-Lora font-medium  border px-6 h-[41px] hover:bg-khaki hover:text-white"
-              >
-                VIEW OFFER
-                <HiOutlineArrowNarrowRight className="ml-2" />
-              </button>
+              <Link to={"/pricing"}>
+                <button
+                  to="#"
+                  className="flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-5 lg:leading-[38px] font-Lora font-medium  border px-6 h-[41px] hover:bg-khaki hover:text-white"
+                >
+                  VIEW OFFER
+                  <HiOutlineArrowNarrowRight className="ml-2" />
+                </button>
+              </Link>
             </div>
           </div>
         </div>

@@ -54,7 +54,7 @@ const LatestNews = () => {
                     </p>
                   </div>
                 </div>
-                <Link to="/home4/blog">
+                <Link to="/blog_details">
                   <h5 className="text-[22px] 2xl:text-3xl mt-3 leading-6  md:leading-7 2xl:leading-[38px] text-lightBlack dark:text-white font-medium font-Garamond hover:text-khaki dark:hover:text-khaki transition-all duration-300 2xl:pr-[100px]">
                     The Best Travel Insurance Companies for Seniors
                   </h5>
@@ -63,9 +63,11 @@ const LatestNews = () => {
                   Our hotel offers Image for cattle earth. May one Which life
                   divide sea. Commodi soluta minima nemo,…
                 </p>
-                <button className="btn-primary mb-2 sm:h-[42px] 2xl:h-[49px]  lg:before:top-[3.2rem] 2xl:before:top-[3.5rem] ">
-                  READ MORE
-                </button>
+                <Link to={"/blog_details"}>
+                  <button className="btn-primary mb-2 sm:h-[42px] 2xl:h-[49px]  lg:before:top-[3.2rem] 2xl:before:top-[3.5rem] ">
+                    READ MORE
+                  </button>
+                </Link>
               </div>
             </div>
             {/* card - 2 */}
@@ -102,7 +104,7 @@ const LatestNews = () => {
                     </p>
                   </div>
                 </div>
-                <Link to="/home4/blog">
+                <Link to="/blog_details">
                   <h5 className="text-[22px] 2xl:text-3xl mt-3 leading-6  md:leading-7 2xl:leading-[38px] text-lightBlack dark:text-white font-medium font-Garamond hover:text-khaki dark:hover:text-khaki transition-all duration-300">
                     How Travel the World & Make a Difference
                   </h5>
@@ -110,9 +112,11 @@ const LatestNews = () => {
                 <p className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora pt-3 pb-5 2xl:pb-[27px]">
                   Our hotel offers Image for is earth soluta minima nemo,…
                 </p>
-                <button className="btn-primary mb-2 sm:h-[42px] 2xl:h-[49px] lg:before:top-[3.2rem] 2xl:before:top-[3.5rem]">
-                  READ MORE
-                </button>
+                <Link to={"/blog_details"}>
+                  <button className="btn-primary mb-2 sm:h-[42px] 2xl:h-[49px]  lg:before:top-[3.2rem] 2xl:before:top-[3.5rem] ">
+                    READ MORE
+                  </button>
+                </Link>
               </div>
             </div>
 
@@ -148,7 +152,7 @@ const LatestNews = () => {
                     </p>
                   </div>
                 </div>
-                <Link to="/home4/blog">
+                <Link to="/blog_details">
                   <h5 className="text-[22px] 2xl:text-3xl mt-3 leading-6  md:leading-7 2xl:leading-[38px] text-lightBlack dark:text-white font-medium font-Garamond hover:text-khaki dark:hover:text-khaki transition-all duration-300">
                     Retore Lighting Design In The Hostel
                   </h5>
@@ -156,9 +160,11 @@ const LatestNews = () => {
                 <p className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora pt-3 pb-5 2xl:pb-[27px]">
                   Our hotel offers Image for is earth soluta minima nemo,…
                 </p>
-                <button className="btn-primary mb-2 sm:h-[42px] 2xl:h-[49px] lg:before:top-[3.2rem] 2xl:before:top-[3.5rem]">
-                  READ MORE
-                </button>
+                <Link to={"/blog_details"}>
+                  <button className="btn-primary mb-2 sm:h-[42px] 2xl:h-[49px]  lg:before:top-[3.2rem] 2xl:before:top-[3.5rem] ">
+                    READ MORE
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

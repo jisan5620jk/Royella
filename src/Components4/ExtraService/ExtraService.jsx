@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ExtraService = () => {
   return (
     <section className="bg-[#ededed] dark:bg-normalBlack py-20 2xl:py-[120px]">
@@ -25,11 +27,11 @@ const ExtraService = () => {
               readymade swag. Selfies iPhone Kickstarter, drinking vinegar
             </p>
           </div>
-          <div>
+          <Link to={"/room"}>
             <button className="btn-items text-sm md:text-base ">
               VIEW ALL ROOMS
             </button>
-          </div>
+          </Link>
         </div>
         {/* section content */}
         <div className="pt-10 xl:pt-[60px]">
@@ -53,7 +55,9 @@ const ExtraService = () => {
                   of our complimentary shuttle serves local beers service.
                 </p>
                 <div className="float-left">
-                  <button className="btn-primary">Learn more</button>
+                  <Link to={"/room_details"}>
+                    <button className="btn-primary">Learn more</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -77,7 +81,9 @@ const ExtraService = () => {
                   of our complimentary shuttle serves local beers service.
                 </p>
                 <div className="float-left">
-                  <button className="btn-primary">Learn more</button>
+                  <Link to={"/room_details"}>
+                    <button className="btn-primary">Learn more</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -101,7 +107,9 @@ const ExtraService = () => {
                   of our complimentary shuttle serves local beers service.
                 </p>
                 <div className="float-left">
-                  <button className="btn-primary">Learn more</button>
+                  <Link to={"/room_details"}>
+                    <button className="btn-primary">Learn more</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -128,7 +136,9 @@ const ExtraService = () => {
                   of our complimentary shuttle serves local beers service.
                 </p>
                 <div className="float-left">
-                  <button className="btn-primary">Learn more</button>
+                  <Link to={"/room_details"}>
+                    <button className="btn-primary">Learn more</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -152,7 +162,9 @@ const ExtraService = () => {
                   of our complimentary shuttle serves local beers service.
                 </p>
                 <div className="float-left">
-                  <button className="btn-primary">Learn more</button>
+                  <Link to={"/room_details"}>
+                    <button className="btn-primary">Learn more</button>
+                  </Link>
                 </div>
               </div>
             </div>
