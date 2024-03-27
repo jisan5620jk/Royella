@@ -89,12 +89,12 @@ const Room = () => {
                   <span>Night</span>
                 </div>
 
-                <div className="">
+                <Link to={"/room_details"}>
                   <button className="flex items-center justify-center text-[15px] leading-[38px] bg-khaki  absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300">
                     View Details{" "}
                     <BsArrowRight className="w-4 h-4 ml-2  text-white" />{" "}
                   </button>
-                </div>
+                </Link>
               </div>
               <div className="font-Garamond">
                 <div className=" border-[1px] border-[#e8e8e8] dark:border-[#424242]  border-t-0">
@@ -170,12 +170,12 @@ const Room = () => {
                   <span className="mx-2">|</span>
                   <span>Night</span>
                 </div>
-                <div className="">
-                  <button className="flex items-center justify-center text-[15px] leading-[38px] bg-khaki absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300">
+                <Link to={"/room_details"}>
+                  <button className="flex items-center justify-center text-[15px] leading-[38px] bg-khaki  absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300">
                     View Details{" "}
                     <BsArrowRight className="w-4 h-4 ml-2  text-white" />{" "}
                   </button>
-                </div>
+                </Link>
               </div>
               <div className="font-Garamond">
                 <div className=" border-[1px] border-[#e8e8e8] dark:border-[#424242]  border-t-0">
@@ -251,12 +251,12 @@ const Room = () => {
                   <span className="mx-2">|</span>
                   <span>Night</span>
                 </div>
-                <div className="">
-                  <button className="flex items-center justify-center text-[15px] leading-[38px] bg-khaki absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300">
+                <Link to={"/room_details"}>
+                  <button className="flex items-center justify-center text-[15px] leading-[38px] bg-khaki  absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300">
                     View Details{" "}
                     <BsArrowRight className="w-4 h-4 ml-2  text-white" />{" "}
                   </button>
-                </div>
+                </Link>
               </div>
               <div className="font-Garamond">
                 <div className=" border-[1px] border-[#e8e8e8] dark:border-[#424242]  border-t-0">
@@ -332,12 +332,12 @@ const Room = () => {
                   <span className="mx-2">|</span>
                   <span>Night</span>
                 </div>
-                <div className="">
-                  <button className="flex items-center justify-center text-[15px] leading-[38px] bg-khaki absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300">
+                <Link to={"/room_details"}>
+                  <button className="flex items-center justify-center text-[15px] leading-[38px] bg-khaki  absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300">
                     View Details{" "}
                     <BsArrowRight className="w-4 h-4 ml-2  text-white" />{" "}
                   </button>
-                </div>
+                </Link>
               </div>
               <div className="font-Garamond">
                 <div className=" border-[1px] border-[#e8e8e8] dark:border-[#424242]  border-t-0">
@@ -413,12 +413,12 @@ const Room = () => {
                   <span className="mx-2">|</span>
                   <span>Night</span>
                 </div>
-                <div className="">
-                  <button className="flex items-center justify-center text-[15px] leading-[38px] bg-khaki absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300">
+                <Link to={"/room_details"}>
+                  <button className="flex items-center justify-center text-[15px] leading-[38px] bg-khaki  absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300">
                     View Details{" "}
                     <BsArrowRight className="w-4 h-4 ml-2  text-white" />{" "}
                   </button>
-                </div>
+                </Link>
               </div>
               <div className="font-Garamond">
                 <div className=" border-[1px] border-[#e8e8e8] dark:border-[#424242]  border-t-0">
@@ -494,12 +494,12 @@ const Room = () => {
                   <span className="mx-2">|</span>
                   <span>Night</span>
                 </div>
-                <div className="">
-                  <button className="flex items-center justify-center text-[15px] leading-[38px] bg-khaki absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300">
+               <Link to={"/room_details"}>
+                  <button className="flex items-center justify-center text-[15px] leading-[38px] bg-khaki  absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300">
                     View Details{" "}
                     <BsArrowRight className="w-4 h-4 ml-2  text-white" />{" "}
                   </button>
-                </div>
+                </Link>
               </div>
               <div className="font-Garamond">
                 <div className=" border-[1px] border-[#e8e8e8] dark:border-[#424242]  border-t-0">
@@ -619,7 +619,7 @@ const Room = () => {
                 </p>
               </div>
               <Link
-                to="#"
+                to={"/room_details"}
                 className="flex items-center text-lightGray text-base font-Garamond font-semibold group hover:text-khaki dark:hover:text-khaki"
               >
                 VIEW DETAILS

@@ -16,6 +16,7 @@ const HeroSection = () => {
       <Swiper
         centeredSlides={true}
         navigation={true}
+        speed="3000"
         autoplay={{
           delay: 10000,
           disableOnInteraction: true,

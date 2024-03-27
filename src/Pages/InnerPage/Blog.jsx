@@ -46,7 +46,10 @@ const Blog = () => {
                     </Link>
                   </div>
                   <div className="  border-t-[1px] border-[#ddd] dark:border-gray py-2 sm:py-3 md:py-4 xl:py-5">
-                    <div className="px-[30px] flex items-center justify-between ">
+                    <Link
+                      to={"/blog_details"}
+                      className="px-[30px] flex items-center justify-between "
+                    >
                       <div className="">
                         <span className=" text-sm sm:text-base flex items-center ">
                           <span className="ml-[10px] leading-[38px] uppercase text-lightBlack dark:text-white font-medium group-hover:text-khaki hover:underline  underline-offset-1">
@@ -60,7 +63,7 @@ const Blog = () => {
                           size={"24px"}
                         />
                       </span>
-                    </div>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -100,7 +103,10 @@ const Blog = () => {
                     </Link>
                   </div>
                   <div className="  border-t-[1px] border-[#ddd] dark:border-gray py-2 sm:py-3 md:py-4 xl:py-5">
-                    <div className="px-[30px] flex items-center justify-between ">
+                    <Link
+                      to={"/blog_details"}
+                      className="px-[30px] flex items-center justify-between "
+                    >
                       <div className="">
                         <span className=" text-sm sm:text-base flex items-center ">
                           <span className="ml-[10px] leading-[38px] uppercase text-lightBlack dark:text-white font-medium group-hover:text-khaki hover:underline  underline-offset-1">
@@ -114,7 +120,7 @@ const Blog = () => {
                           size={"24px"}
                         />
                       </span>
-                    </div>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -154,7 +160,10 @@ const Blog = () => {
                     </Link>
                   </div>
                   <div className="  border-t-[1px] border-[#ddd] dark:border-gray py-2 sm:py-3 md:py-4 xl:py-5">
-                    <div className="px-[30px] flex items-center justify-between ">
+                    <Link
+                      to={"/blog_details"}
+                      className="px-[30px] flex items-center justify-between "
+                    >
                       <div className="">
                         <span className=" text-sm sm:text-base flex items-center ">
                           <span className="ml-[10px] leading-[38px] uppercase text-lightBlack dark:text-white font-medium group-hover:text-khaki hover:underline  underline-offset-1">
@@ -168,7 +177,7 @@ const Blog = () => {
                           size={"24px"}
                         />
                       </span>
-                    </div>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -207,7 +216,10 @@ const Blog = () => {
                     </Link>
                   </div>
                   <div className="  border-t-[1px] border-[#ddd] dark:border-gray py-2 sm:py-3 md:py-4 xl:py-5">
-                    <div className="px-[30px] flex items-center justify-between ">
+                    <Link
+                      to={"/blog_details"}
+                      className="px-[30px] flex items-center justify-between "
+                    >
                       <div className="">
                         <span className=" text-sm sm:text-base flex items-center ">
                           <span className="ml-[10px] leading-[38px] uppercase text-lightBlack dark:text-white font-medium group-hover:text-khaki hover:underline  underline-offset-1">
@@ -221,7 +233,7 @@ const Blog = () => {
                           size={"24px"}
                         />
                       </span>
-                    </div>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -261,7 +273,10 @@ const Blog = () => {
                     </Link>
                   </div>
                   <div className="  border-t-[1px] border-[#ddd] dark:border-gray py-2 sm:py-3 md:py-4 xl:py-5">
-                    <div className="px-[30px] flex items-center justify-between ">
+                    <Link
+                      to={"/blog_details"}
+                      className="px-[30px] flex items-center justify-between "
+                    >
                       <div className="">
                         <span className=" text-sm sm:text-base flex items-center ">
                           <span className="ml-[10px] leading-[38px] uppercase text-lightBlack dark:text-white font-medium group-hover:text-khaki hover:underline  underline-offset-1">
@@ -275,7 +290,7 @@ const Blog = () => {
                           size={"24px"}
                         />
                       </span>
-                    </div>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -314,7 +329,10 @@ const Blog = () => {
                     </Link>
                   </div>
                   <div className="  border-t-[1px] border-[#ddd] dark:border-gray py-2 sm:py-3 md:py-4 xl:py-5">
-                    <div className="px-[30px] flex items-center justify-between ">
+                    <Link
+                      to={"/blog_details"}
+                      className="px-[30px] flex items-center justify-between "
+                    >
                       <div className="">
                         <span className=" text-sm sm:text-base flex items-center ">
                           <span className="ml-[10px] leading-[38px] uppercase text-lightBlack dark:text-white font-medium group-hover:text-khaki hover:underline  underline-offset-1">
@@ -328,7 +346,7 @@ const Blog = () => {
                           size={"24px"}
                         />
                       </span>
-                    </div>
+                    </Link>
                   </div>
                 </div>
               </div>

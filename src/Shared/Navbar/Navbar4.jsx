@@ -340,7 +340,7 @@ const Navbar4 = () => {
                   />
                 )}
               </span>
-              <Link to="#" className=" pr-3">
+              <Link to={"/pricing"} className=" pr-3">
                 <button className="btn-primary dark:after:bg-white dark:hover:text-lightBlack hover:dark:before:bg-white">
                   Book Now
                 </button>

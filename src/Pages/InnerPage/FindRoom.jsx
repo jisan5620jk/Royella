@@ -206,12 +206,12 @@ const FindRoom = () => {
                     alt=""
                   />
                 </div>
-                <div className="">
+                <Link to={"/room_details"}>
                   <button className="flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki">
                     View Details{" "}
                     <BsArrowRight className="w-4 h-4 ml-2  text-white" />{" "}
                   </button>
-                </div>
+                </Link>
               </div>
               <div className="font-Garamond">
                 <div className="px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center text-white  absolute top-[10px] right-[10px] font-Lora font-normal leading-[26px]">
@@ -282,12 +282,12 @@ const FindRoom = () => {
                     alt=""
                   />
                 </div>
-                <div className="">
+                <Link to={"/room_details"}>
                   <button className="flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki">
                     View Details{" "}
                     <BsArrowRight className="w-4 h-4 ml-2  text-white" />{" "}
                   </button>
-                </div>
+                </Link>
               </div>
               <div className="font-Garamond">
                 <div className="px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center font-Lora font-normal leading-[26px] text-white  absolute top-[10px] right-[10px] ">
@@ -358,12 +358,12 @@ const FindRoom = () => {
                     alt=""
                   />
                 </div>
-                <div className="">
+                <Link to={"/room_details"}>
                   <button className="flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki">
                     View Details{" "}
                     <BsArrowRight className="w-4 h-4 ml-2  text-white" />{" "}
                   </button>
-                </div>
+                </Link>
               </div>
               <div className="font-Garamond">
                 <div className="px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center font-Lora font-normal leading-[26px] text-white  absolute top-[10px] right-[10px] ">

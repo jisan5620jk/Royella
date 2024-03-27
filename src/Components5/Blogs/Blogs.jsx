@@ -102,7 +102,7 @@ const Blogs = () => {
                           </Link>
                         </div>
                       </div>
-                    </div>g
+                    </div>
                   </div>
                   {/* Blog two */}
                   <div

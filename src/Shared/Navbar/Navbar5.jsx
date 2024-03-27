@@ -397,7 +397,7 @@ const Navbar5 = () => {
                     />
                   )}
                 </span>
-                <Link to="#" className=" pr-3">
+                <Link to={"/pricing"} className=" pr-3">
                   <button className="btn-primary hover:text-khaki font-bold after:bg-white after:text-khaki hover:before:bg-white">
                     Book Now
                   </button>
